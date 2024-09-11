@@ -2,69 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CatPhotoApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>learnCss</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<main>
-    <h1>CatPhotoApp</h1>
-    <section>
-        <h2>Cat Photos</h2>
-        <!-- TODO: Add link to cat photos -->
-        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com">
-            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-                 alt="A cute orange cat lying on its back.">
-        </a>
-    </section>
-    <section>
-        <h2>Cat List</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-            <li>cat nip</li>
-            <li>laser pointers</li>
-            <li>lasagna</li>
-        </ul>
-        <figure>
-            <img alt="A slice of lasagna on a plate."
-                 src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg">
-            <figcaption>Cats <em>love</em> lasagna.</figcaption>
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-            <li>flea treatment</li>
-            <li>thunder</li>
-            <li>other cats</li>
-        </ol>
-        <figure>
-            <img alt="Five cats looking around a field."
-                 src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg">
-            <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
-        </figure>
-    </section>
-    <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-            <fieldset>
-                <legend>Is your cat an indoor or outdoor cat?</legend>
-                <input checked id="indoor" value="indoor" type="radio" name="indoor-outdoor" value="indoor">
-                <label>Indoor</label>
-                <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
-                <label>Outdoor</label>
-            </fieldset>
-            <fieldset>
-                <legend>What's your cat's personality?</legend>
-                <input id="loving" value="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
-                <input id="lazy" value="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
-                <input id="energetic" value="energetic" type="checkbox" name="personality"> <label for="energetic">
-                Energetic</label>
-            </fieldset>
-        </form>
-        <button type="submit">Submit</button>
-    </section>
-</main>
-<footer>
-    <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
-</footer>
-<script src="index.js"></script>
+<div class="menu">
+    <main>
+        <h1>CAMPER CAFE</h1>
+        <hr class="bottom-line">
+        <p class="established">Est. 2020</p>
+        <section>
+            <h2>Coffee</h2>
+            <img alt="coffee icon" src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg"/>
+            <article class="item">
+                <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+            </article>
+            <article class="item">
+                <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+            </article>
+            <article class="item">
+                <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+            </article>
+            <article class="item">
+                <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+            </article>
+            <article class="item">
+                <p class="flavor">Mocha</p><p class="price">4.50</p>
+            </article>
+
+        </section>
+        <section>
+            <h2 >Desserts</h2>
+            <article class="item">
+                <p class="dessert">Donut</p><p class="price">1.50</p>
+            </article>
+            <article class="item">
+                <p class="dessert">Cherry Pie</p><p class="price">2.75</p></article>
+            <article class="item">
+                <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+            </article>
+            <article class="item">
+                <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+            </article>
+        </section>
+    </main>
+    <hr class="bottom-line">
+    <footer>
+        <footer>
+            <p><a href="https://www.freecodecamp.org">Visit our website</a></p>
+            <p class="address">123 Free Code Camp Drive</p>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon">
+        </footer>
+    </footer>
+    <script src="index.js"></script>
+</div>
 </body>
 </html>
